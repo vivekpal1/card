@@ -105,7 +105,12 @@ strong {
   max-width: 30rem;
   display: flex;
 }
-
+.overlay__btns1 {
+  width: 100%;
+  max-width: 31rem;
+  margin-top: 12px;
+  display: flex;
+}
 .overlay__btn {
   width: 50%;
   height: 2.5rem;
@@ -127,12 +132,15 @@ strong {
   cursor: pointer;
 }
 
-.overlay__btn--transparent {
+.overlay__btn--transparent, .overlay__btn2--transparent {
   background: transparent;
   color: var(--dark-color);
   border: 2px solid var(--dark-color);
   border-width: 2px;
   margin-right: 0.75rem;
+}
+.overlay__btn2--transparent{
+  margin-left: 12px;
 }
 
 .overlay__btn-emoji {
